@@ -1,0 +1,29 @@
+{
+  "name": "baswil_frontend",
+  "version": "1.0.0",
+  "description": "Proyek Frontend Baswil",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "scrollreveal": "^4.0.9",
+    "sequelize": "^6.37.5",
+    "typed.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "vite": "^4.5.5"
+  }
+}
